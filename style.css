@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:before,*:after{ box-sizing: border-box;}
+img{
+    max-width: 100%;
+}
+.wrap{
+    font-family: "castoro", sans-serif;
+    font-weight: 400;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 128px;
+    line-height: 192px;
+    letter-spacing: 0.12em;
+}
+.header-pic{
+    display: block;
+    margin: 0 auto;
+}
+.introduction{
+    background-color:#EFEFEF;
+}
+.content{
+    font-size: 32px;
+    line-height: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.w-50{
+    width: 50%;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.list-title{
+    color: #AE0000;
+    font-size: 40px;
+    line-height: 60px;
+    border-bottom: #AE0000 solid 3px;
+    margin-bottom: 16px;
+}
+.list-item{
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 8px;
+}
+.list-link{
+    text-decoration: none;
+}
+.list-year{
+    color: #949494;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-list{
+    padding-bottom: 40px;
+}
+.footer{
+    background-color: black;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    text-align: center;
+}
+
+.media-list{
+    display: inline-block;
+}
+
+.pt-40{
+    padding-top: 160px;
+}
+.pt-20{
+    padding-top: 80px;
+}
+.pb-40{
+    padding-bottom: 160px;
+}
+.pr-10{
+    padding-right: 40px;
+}
+
+
+
